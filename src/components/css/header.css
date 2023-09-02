@@ -1,0 +1,23 @@
+.header {
+    background-color: #75ACA1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 6rem;
+    height: 5.5rem;
+    margin-left: 2rem;
+}
+
+.header li {
+    display: inline;
+    margin: 0 1rem 0 0;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+.header li:hover {
+    color: #BE617A;
+}

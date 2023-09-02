@@ -1,33 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Card } from "./components/card";
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+import "./components/style.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Header/>
+      
+      <div className="cardList">
+        <Card 
+          title="Regras de Conduta" 
+          conteudo="Não obstante, a constante divulgação das informações 
+                    auxilia a preparação e a composição das regras de conduta 
+                    normativas."
+          image="./src/components/img/relatorio-de-noticias.png"/>
+
+        <Card 
+          title="Metas Propostas" 
+          conteudo="Por conseguinte, o entendimento das metas propostas não 
+                    pode mais se dissociar dos níveis de motivação departamental."
+          image="./src/components/img/noticias.png"/>
+
+        <Card 
+          title="Orçamento Setorial" 
+          conteudo="Desta maneira, o acompanhamento das preferências de consumo acarreta 
+                    um processo de reformulação e modernização do orçamento setorial."
+          image="./src/components/img/noticiasI.png"/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <Footer/>
     </>
   )
 }

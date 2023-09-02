@@ -1,0 +1,43 @@
+.card {
+    border: solid 0.1rem #C45744;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 24px 0px #bb786d;
+}
+
+.imgCard {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+}
+
+.imagem {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+}
+
+.info h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E8C01A;
+    margin-top: 0;
+}
+
+.info p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.info button {
+    background-color: #BE617A;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: #BE617A;
+    color: #FFFFFF;
+}
