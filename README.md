@@ -23,6 +23,9 @@ Aplicar a componentização de componentes em páginas web usando o framework Re
 | Cor exemplo       | ![#E8C01A](https://via.placeholder.com/10/E8C01A?text=+) #E8C01A |
 | Cor exemplo       | ![#75ACA1](https://via.placeholder.com/10/75ACA1?text=+) #75ACA1 |
 
+## 🚀 Como executar o projeto
+
+Frontend
 
 ## Pré-requisitos
 
